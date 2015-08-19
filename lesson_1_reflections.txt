@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that 
+was introduced?
+
+It narrowed my focus down to just the lines that were changed.
+Then I only had to look for differences in a few lines of code.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+It could help me to remember how I added a feature to a page, so I could do it again.
+If I make a mistake, it makes it easier to return to the previous way of doing things.
+
+What do you think are the pros and cons of manually choosing when to create a commit, 
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pro: You can complete a set of changes before committing.
+Pro: If you start making changes and have reason to throw it away, it doesn't clutter history.
+Cons: Possible to lose changes if you don't commit often enough.
+Cons: Could end up with multiple changes in one commit, making it difficult to understand changes.
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git might tend to be used more for things like programming, where you have related files 
+and one change could easily span multiple files.
+Something like Google Docs is more likely to be used for something like documents 
+that can be handled on an individual basis - lesser need to track changes across 
+multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+"git log" will list all recent changes, can scroll through list of changes.
+"git log --stat" will also list changes, but include extra information.
+"git diff [commit-ID1] [commit-ID2]" will display the differences between 
+any files changed between these 2 commits.
+
+How might using version control make you more confident to make changes that 
+could break something?
+
+I know I can always compare versions to find the mistake or just return to a 
+previous working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Version control, of course! Can also look through sample repository history.
