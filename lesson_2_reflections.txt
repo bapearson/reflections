@@ -1,0 +1,13 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A hidden .git directory is created locally and a new repository is 
+initialized through Git.
+
+How is the staging area different from the working directory and the repository? 
+What value do you think it offers?
+
+The staging area lets you collect one or more files from your working directory 
+that you want to commit to your repository.
+It lets you create a collection of files to commit together as one commit action, 
+and it also gives you a chance to review the collection of files before actually 
+doing the commit. This way, you have a chance to remove files or add before the commit.
