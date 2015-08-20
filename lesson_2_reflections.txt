@@ -24,3 +24,8 @@ organized? How would branches help?
 Branches are good for trying something experimental. 
 A branch could also be useful for working on a larger feature that you don't 
 want to commit to the master branch until you have it fully completed.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps to see what is on the main master branch vs. what is on other branches. 
+It helps to understand what can, and cannot, be seen from the other branches.
