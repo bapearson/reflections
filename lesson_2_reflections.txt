@@ -11,3 +11,9 @@ that you want to commit to your repository.
 It lets you create a collection of files to commit together as one commit action, 
 and it also gives you a chance to review the collection of files before actually 
 doing the commit. This way, you have a chance to remove files or add before the commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can run diff commands to compare what you have changed compared to the last commit. 
+You can see all files that are modified as well as what was changed in each file. 
+Not all modified files in the working directory have to be in the staging area.
