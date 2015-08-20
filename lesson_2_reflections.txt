@@ -17,3 +17,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 You can run diff commands to compare what you have changed compared to the last commit. 
 You can see all files that are modified as well as what was changed in each file. 
 Not all modified files in the working directory have to be in the staging area.
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+Branches are good for trying something experimental. 
+A branch could also be useful for working on a larger feature that you don't 
+want to commit to the master branch until you have it fully completed.
