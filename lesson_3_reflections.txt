@@ -11,3 +11,24 @@ working on a feature, it could be distracting to suddenly see different behavior
 your code (due to an auto pull) and wonder whether you caused the change. If you 
 manually pull down code changes, then you are more aware of when to expect changes 
 like this.
+
+Describe the differences between forks, clones, and branches. When would you use 
+one instead of another?
+
+A fork exists in GitHub and remembers what repository it originated from, but 
+changes to files in the fork do not affect the original repository. A fork is 
+useful if you want to make changes to files if you don't have permission to 
+change the original files, or if the changes are not wanted or needed by the 
+owner of the original repository.
+A clone is a copy of a repository; the clone exists in a local directory on a 
+person's computer. Changes to a clone can be pushed back up to the origin 
+repository in GitHub. A clone lets you make changes to files on your own 
+computer and use any file editor that you prefer. Also if you are one of 
+several people working on files in a repository, you can each make changes 
+and submit those changes back to the original repository in GitHub so that 
+others have access to those changes.
+A branch is a separate set of code in a repository, containing differences between 
+it and files in the master branch of the repository. A branch allows you a way 
+to change files and test out your changes without affecting anyone else trying 
+to use code from the master branch. But once you have completed changes to your 
+satisfaction, then you can merge your changes back into the master branch.
