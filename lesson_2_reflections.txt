@@ -39,3 +39,11 @@ The new commit has 2 parents, instead of the usual one; it points to the last co
 on each of the 2 branches that were just merged.
 The diagram helps to show that changes occurred independently along 2 lines, the 
 branches, and then were combined together so that all changes exist in 1 set of files.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It is great to have Git automatically handle simple merging for you. That can 
+save you a lot of time while merging files. And it will flag a conflict any time 
+that it does not see an easy way to merge files, so that you can fix it.
+Manually merging would let you pick and choose every change to include, reject 
+or modify. So manual would offer the most control, but often would take more time.
