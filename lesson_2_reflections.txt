@@ -29,3 +29,13 @@ How do the diagrams help you visualize the branch structure?
 
 It helps to see what is on the main master branch vs. what is on other branches. 
 It helps to understand what can, and cannot, be seen from the other branches.
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+When 2 branches are merged, changes from both branches now exist in one codebase.
+A new commit is created in the branch that was checked out at the time of the commit. 
+The new commit has 2 parents, instead of the usual one; it points to the last commit 
+on each of the 2 branches that were just merged.
+The diagram helps to show that changes occurred independently along 2 lines, the 
+branches, and then were combined together so that all changes exist in 1 set of files.
