@@ -32,3 +32,9 @@ it and files in the master branch of the repository. A branch allows you a way
 to change files and test out your changes without affecting anyone else trying 
 to use code from the master branch. But once you have completed changes to your 
 satisfaction, then you can merge your changes back into the master branch.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+This helps you to know whether there might any conflicting changes when you 
+try to commit your local changes. And if there are conflicts, you can review 
+them to determine how you might want to resolve them.
