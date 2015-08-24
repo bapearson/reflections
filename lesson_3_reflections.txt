@@ -38,3 +38,15 @@ What is the benefit of having a copy of the last known state of the remote store
 This helps you to know whether there might any conflicting changes when you 
 try to commit your local changes. And if there are conflicts, you can review 
 them to determine how you might want to resolve them.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+To collaborate without Git or GitHub, I would just have to make copies of my 
+changed files and give them (via network, burning on CD/DVD, etc.) to my 
+coworker. But then I would either need to also describe what I had changed 
+and where, or my coworker would need other tools to compare those files with 
+the previous versions of the files. Then we would need to directly communicate 
+to share feedback and possible changes needed. Then one of us would need to 
+decide how to manually merge those changes into the "official" storage copy 
+of the code. Most of this would be a lot easier by using Git and GitHub.
