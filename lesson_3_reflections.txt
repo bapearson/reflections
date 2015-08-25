@@ -50,3 +50,15 @@ the previous versions of the files. Then we would need to directly communicate
 to share feedback and possible changes needed. Then one of us would need to 
 decide how to manually merge those changes into the "official" storage copy 
 of the code. Most of this would be a lot easier by using Git and GitHub.
+
+When would you want to make changes in a separate branch rather than directly 
+in master? What benefits does each approach have?
+
+A separate branch is useful if you are working on a larger feature, want others 
+to review your changes before making it part of the master branch, or if you 
+think it is likely that others could commit conflicting changes to master before 
+you are able to commit your changes.
+Working directory in master is simpler if you don't have to worry about conflicts 
+- just make changes, commit them, and push them to GitHub.
+But in any case where conflicts are likely to occur or you want to get feedback 
+on your changes before committing to master, then a branch is very useful.
